@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import useCrud from '../hooks/useCrud';
-import './styles/ReservationPage.css';
+import './styles/ReservationsPage.css';
 import BookCard from '../components/ReservationsPage/BookCard';
 import FormReviews from '../components/ReservationsPage/FormReviews';
 import { Link } from 'react-router-dom';
