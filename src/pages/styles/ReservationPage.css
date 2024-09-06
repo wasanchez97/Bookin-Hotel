@@ -1,0 +1,17 @@
+.reservations {
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 8em 1.5em;
+	position: relative;
+}
+
+.reservations__title {
+	position: absolute;
+	top: 5em;
+}
+
+.reservations__container {
+	flex-wrap: wrap;
+	gap: 2em;
+	margin-top: 4em;
+}

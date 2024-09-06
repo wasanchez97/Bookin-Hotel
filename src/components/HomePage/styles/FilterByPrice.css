@@ -1,0 +1,35 @@
+.filterprice {
+	gap: 0.5em;
+}
+
+.filterprice__title {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.filterprice__form-field {
+	margin-bottom: 0.5em;
+	.filterprice__form-label {
+		padding-left: 1em;
+		font-size: 1.2em;
+	}
+
+	.filterprice__form-input {
+		padding: 0.5em;
+		border-color: #0005;
+	}
+}
+
+.filterprice__form-btn {
+	margin-top: 1em;
+	padding: 0.5em 0;
+	color: #fff;
+	background-color: #fe4040;
+	font-size: 1.2em;
+	font-weight: 600;
+	filter: brightness(0.9);
+	transition: filter 0.5s ease;
+	&:hover {
+		filter: none;
+	}
+}
